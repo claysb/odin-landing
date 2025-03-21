@@ -47,7 +47,7 @@ a {
     margin-right: 15%;
     padding-top: 72px;
     padding-bottom: 72px;
-    gap: 48px;
+    justify-content: space-between;
 }
 
 .header-content {
@@ -68,12 +68,11 @@ a {
 
 .header-image {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 img {
     width: 500px;
+    height: 250px;
 }
 
 button {
