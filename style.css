@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     display: flex;
@@ -129,4 +129,24 @@ h2 {
 .section3 {
     display: flex;
     background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.quotetext {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+#quoteauthor {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
 }
