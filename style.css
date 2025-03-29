@@ -150,3 +150,44 @@ h2 {
     font-size: 24px;
     font-weight: bold;
 }
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.modal {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background: #3882F6;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    gap: 96px;
+}
+
+.mheader {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.mtext {
+    color: #E5E7EB;
+}
+
+.mbutton {
+    border-style: solid;
+    width: 120px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
